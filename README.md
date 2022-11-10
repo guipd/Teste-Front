@@ -4,6 +4,17 @@ Criar uma aplicação em Angular que consuma a api de dados sobre a campanha de 
 
 A lista deve conter: Id do paciente, data de nascimento, fabricante e data da aplicação.
 
+Necessario paginar para que apresente apenas 5 registros por vez
+
+Dentro de cada linha colocar um botão para exibir um modal com o restante das informações retornadas pela API
+
+
+* Itens Extras para avaliação: *
+
+Css dos componentes
+
+Teste Unitário
+
 
 
 
