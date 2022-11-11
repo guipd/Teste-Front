@@ -1,0 +1,9 @@
+<div>
+  <div class="lista" *ngFor="let vacinados of listVacinados | slice:0:5 ; index as i">
+    <div>ID do Paciente :{{vacinados._source.paciente_id}}</div>
+    <div>Data Nascimento Paciente: {{vacinados._source.paciente_dataNascimento}}</div>
+    <div>Fabricante Vacina: {{vacinados._source.vacina_fabricante_nome}}</div>
+    <div>Data Aplicação: {{vacinados._source.vacina_dataAplicacao}}</div>
+    <!-- <button (click)="maisInfos()">Saiba Mais</button> -->
+  </div>
+</div>
